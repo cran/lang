@@ -1,0 +1,21 @@
+Package: lang
+Title: Translates R Help Documentation using Large Language Models
+Version: 0.1.0
+Authors@R: 
+    person("Edgar", "Ruiz", , "edgar@posit.co", role = c("aut", "cre"))
+Description: Translates R help documentation on the fly by using a Large 
+    Language model of your choice. If you are using 'RStudio' or 'Positron'
+    the translated help will appear in the help pane. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Imports: callr, cli, fs, glue, mall, rlang, rstudioapi, tools, withr
+Suggests: testthat (>= 3.0.0), ellmer
+Config/testthat/edition: 3
+URL: https://mlverse.github.io/lang/
+NeedsCompilation: no
+Packaged: 2025-10-27 12:43:42 UTC; edgar
+Author: Edgar Ruiz [aut, cre]
+Maintainer: Edgar Ruiz <edgar@posit.co>
+Repository: CRAN
+Date/Publication: 2025-10-30 20:10:02 UTC
