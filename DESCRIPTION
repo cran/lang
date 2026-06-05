@@ -1,21 +1,29 @@
 Package: lang
 Title: Translates R Help Documentation using Large Language Models
-Version: 0.1.0
-Authors@R: 
-    person("Edgar", "Ruiz", , "edgar@posit.co", role = c("aut", "cre"))
-Description: Translates R help documentation on the fly by using a Large 
-    Language model of your choice. If you are using 'RStudio' or 'Positron'
-    the translated help will appear in the help pane. 
+Version: 0.1.1
+Authors@R: c(
+    person("Edgar", "Ruiz", , "edgar@posit.co", role = c("aut", "cre")),
+    person("Posit Software, PBC", role = c("cph", "fnd"),
+           comment = c(ROR = "03wc8by49"))
+  )
+Description: Translates R help documentation on the fly by using a Large
+    Language model of your choice. If you are using 'RStudio' or
+    'Positron' the translated help will appear in the help pane.
 License: MIT + file LICENSE
-Encoding: UTF-8
-RoxygenNote: 7.3.3
-Imports: callr, cli, fs, glue, mall, rlang, rstudioapi, tools, withr
-Suggests: testthat (>= 3.0.0), ellmer
+URL: https://mlverse.github.io/lang/, https://github.com/mlverse/lang
+BugReports: https://github.com/mlverse/lang/issues
+Depends: R (>= 4.1)
+Imports: callr, cli, fs, glue, lifecycle, mall, rlang (>= 1.1.0),
+        rstudioapi, tools, withr
+Suggests: ellmer, testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: https://mlverse.github.io/lang/
+Config/usethis/last-upkeep: 2025-11-10
+Encoding: UTF-8
+Config/roxygen2/version: 8.0.0
 NeedsCompilation: no
-Packaged: 2025-10-27 12:43:42 UTC; edgar
-Author: Edgar Ruiz [aut, cre]
+Packaged: 2026-06-05 15:48:46 UTC; edgar
+Author: Edgar Ruiz [aut, cre],
+  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)
 Maintainer: Edgar Ruiz <edgar@posit.co>
 Repository: CRAN
-Date/Publication: 2025-10-30 20:10:02 UTC
+Date/Publication: 2026-06-05 16:10:09 UTC
